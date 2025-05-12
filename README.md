@@ -92,7 +92,11 @@ spangher@usc.edu
 
 ## Follow up work using this dataset
 
-If you have follow-up work that uses this dataset, please let us know. Here is current and ongoing work:
+<div style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2); border: 3px solid #ffffff;">
+  <p style="margin: 0; color: #ffffff; font-weight: 700; font-size: 1.2em; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">🌟 If you have follow-up work that uses this dataset, please let us know!! We'd love to hear from you! 🌟</p>
+</div>
+
+Here is current and ongoing work:
 
 ### Source planning as a multi-document retrieval task
 
