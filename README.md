@@ -9,16 +9,13 @@ This repository contains the dataset and code accompanying our EMNLP 2024 paper:
 
 Our paper introduces a framework for assessing how well Large Language Models (LLMs) are able to plan like humans, as shown above, and whether their planning matches human planning. We take as a task the task of planning the sources to talk to to confirm and criticize a press release. 
 
-A major contribution of this work is collecting and releasing a large dataset that tracks how press releases are covered by news articles in the media. This dataset consists of pairs where press releases → news articles are hyperlinked. In addition to the use-cases explored in our paper, we believe this dataset can facilitate research in:
+A major contribution of this work is collecting and releasing a large dataset that tracks how <img src="images/press-release-text.png" height="24px" alt="press releases"> are covered by <img src="images/news-articles-text.png" height="24px" alt="news articles"> in the media. This dataset consists of pairs where <img src="images/press-release-text.png" height="24px" alt="press releases"> → <img src="images/news-articles-text.png" height="24px" alt="news articles"> are hyperlinked. In addition to the use-cases explored in our paper, we believe this dataset can facilitate research in:
 
 <img src="images/use-case-1.png" width="48%" alt="Factual Consistency"> <img src="images/use-case-2.png" width="48%" alt="Source Attribution">
 
 <img src="images/use-case-3.png" width="48%" alt="Information Flow"> <img src="images/use-case-4.png" width="48%" alt="Critical Coverage">
 
-<div style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2); border: 3px solid #ffffff;">
-  <p style="margin: 0; color: #ffffff; font-weight: 700; font-size: 1.2em; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">🌟 If you are interested in doing follow-up work that utilizes this dataset, please let us know!! We'd love to hear from you! 🌟</p>
-</div>
-
+<img src="images/interested-followup.png" width="100%" alt="Call for Follow-up Work">
 
 ## Dataset Structure
 
