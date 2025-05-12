@@ -2,7 +2,7 @@
 
 This repository contains the dataset and code accompanying our EMNLP 2024 paper:
 
-> [**Do LLMs Plan Like Human Writers? Comparing Journalist Coverage of Press Releases with LLMs**](https://aclanthology.org/2024.emnlp-main.1216.pdf) 🏆 **Best Paper Award**
+> [**Do LLMs Plan Like Human Writers? Comparing Journalist Coverage of Press Releases with LLMs**](https://aclanthology.org/2024.emnlp-main.1216.pdf) 🏆 **Outstanding Paper Award**
 > 
 > **Authors:** Alexander Spangher, Nanyun Peng, Sebastian Gehrmann, and Mark Dredze
 
