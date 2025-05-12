@@ -70,6 +70,7 @@ This is a SQLite database contains with news articles, press releases, metadata 
 - **Factual Consistency**: Tools for analyzing the factual consistency between press releases and news coverage
 - **Source Extraction**: Methods for identifying and analyzing sources in news articles
 
+
 ## Citation
 
 If you use this dataset in your research, please cite our paper:
@@ -87,4 +88,27 @@ If you use this dataset in your research, please cite our paper:
 ## Contact
 
 spangher@usc.edu
+
+
+## Follow up work using this dataset
+
+If you have follow-up work that uses this dataset, please let us know. Here is current and ongoing work:
+
+### Source planning as a multi-document retrieval task
+
+This work introduces a new benchmark for multi-document retrieval that focuses on how journalists select sources when writing news articles, using our press release dataset to evaluate how well retrieval models can identify and rank potential sources that journalists might want to interview or reference.
+
+```bibtex
+@inproceedings{spangher2025novel,
+  title={A Novel Multi-Document Retrieval Benchmark: Journalist Source-Selection in Newswriting},
+  author={Spangher, Alexander and Huang, Tenghao and Huang, Yiqin and Spangher, Lucas and Min, Sewon and Dredze, Mark},
+  booktitle={Proceedings of the 4th International Workshop on Knowledge-Augmented Methods for Natural Language Processing},
+  pages={180--204},
+  year={2025}
+}
+```
+
+### Sourcing for user comprehension of news articles:
+
+A website for exploring the reporting process of news articles is available at [https://usc-research.appspot.com/explore_reporting/doc_source_data/5](https://usc-research.appspot.com/explore_reporting/doc_source_data/5). This interactive tool demonstrates how our dataset can be used to build systems that help readers understand the sources behind news articles and their roles in the reporting process.
 
