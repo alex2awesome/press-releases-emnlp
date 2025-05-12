@@ -9,29 +9,11 @@ This repository contains the dataset and code accompanying our EMNLP 2024 paper:
 
 Our paper introduces a framework for assessing how well Large Language Models (LLMs) are able to plan like humans, as shown above, and whether their planning matches human planning. We take as a task the task of planning the sources to talk to to confirm and criticize a press release. 
 
-A major contribution of this work is collecting and releasing a large dataset that tracks how <span style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); color: white; padding: 2px 8px; border-radius: 4px; font-weight: 700;">press releases</span> are <span style="color: #0056b3; font-weight: 800;">covered by</span> <span style="background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%); color: white; padding: 2px 8px; border-radius: 4px; font-weight: 700;">news articles</span> in the media. This dataset consists of pairs where <span style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); color: white; padding: 2px 8px; border-radius: 4px; font-weight: 700;">press releases</span> <span style="color: #0056b3; font-weight: 800; font-size: 1.2em;">→</span> <span style="background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%); color: white; padding: 2px 8px; border-radius: 4px; font-weight: 700;">news articles</span> are hyperlinked. In addition to the use-cases explored in our paper, we believe this dataset can facilitate research in:
+A major contribution of this work is collecting and releasing a large dataset that tracks how press releases are covered by news articles in the media. This dataset consists of pairs where press releases → news articles are hyperlinked. In addition to the use-cases explored in our paper, we believe this dataset can facilitate research in:
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
-  <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid #dc3545;">
-    <h4 style="margin: 0 0 10px 0; color: #dc3545; font-size: 1.1em;">🔍 Factual Consistency</h4>
-    <p style="margin: 0; color: #495057;">Analyzing how well news coverage maintains factual accuracy when reporting on press releases</p>
-  </div>
+<img src="images/use-case-1.png" width="48%" alt="Factual Consistency"> <img src="images/use-case-2.png" width="48%" alt="Source Attribution">
 
-  <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid #28a745;">
-    <h4 style="margin: 0 0 10px 0; color: #28a745; font-size: 1.1em;">📝 Source Attribution</h4>
-    <p style="margin: 0; color: #495057;">Studying how journalists attribute and cite information from press releases in their articles</p>
-  </div>
-
-  <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid #007bff;">
-    <h4 style="margin: 0 0 10px 0; color: #007bff; font-size: 1.1em;">🔄 Information Flow</h4>
-    <p style="margin: 0; color: #495057;">Understanding how information propagates from press releases through the news media ecosystem</p>
-  </div>
-
-  <div style="flex: 1; min-width: 300px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 4px solid #6f42c1;">
-    <h4 style="margin: 0 0 10px 0; color: #6f42c1; font-size: 1.1em;">⚖️ Critical Coverage</h4>
-    <p style="margin: 0; color: #495057;">Examining how journalists critically analyze and evaluate press release content in their reporting</p>
-  </div>
-</div>
+<img src="images/use-case-3.png" width="48%" alt="Information Flow"> <img src="images/use-case-4.png" width="48%" alt="Critical Coverage">
 
 <div style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); padding: 25px; margin: 25px 0; border-radius: 12px; box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2); border: 3px solid #ffffff;">
   <p style="margin: 0; color: #ffffff; font-weight: 700; font-size: 1.2em; text-align: center; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">🌟 If you are interested in doing follow-up work that utilizes this dataset, please let us know!! We'd love to hear from you! 🌟</p>
